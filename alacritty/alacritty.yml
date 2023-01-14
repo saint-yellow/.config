@@ -9,7 +9,7 @@
 # All imports must either be absolute paths starting with `/`, or paths relative
 # to the user's home directory starting with `~/`.
 import:
-  - ~/.config/alacritty/themes/tokyo-night.yaml
+  - ~/.config/alacritty/colors/gruvbox_dark.yaml
 
 # Any items in the `env` entry below will be added as
 # environment variables. Some entries may override variables
@@ -153,7 +153,7 @@ font:
   builtin_box_drawing: true
 
 # If `true`, bold text is drawn using the bright color variants.
-# draw_bold_text_with_bright_colors: false
+draw_bold_text_with_bright_colors: true
 
 # Colors (Tomorrow Night)
 colors:
