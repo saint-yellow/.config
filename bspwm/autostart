@@ -1,0 +1,5 @@
+#! /bin/sh
+
+pgrep -x sxhkd > /dev/null || sxhkd &
+picom &
+~/.config/polybar/launch.sh
