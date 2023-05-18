@@ -1,5 +1,8 @@
 #! /bin/sh
 
-pgrep -x sxhkd > /dev/null || sxhkd &
+pgrep -x sxhkd >/dev/null || sxhkd -c ~/.config/sxhkd/sxhkdrc.bspwm &
 picom &
 ~/.config/polybar/launch.sh
+feh --bg-fill /usr/share/wallpapers/constantinople.jpg &
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+fcitx5 &
