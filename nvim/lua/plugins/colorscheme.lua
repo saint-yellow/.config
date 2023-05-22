@@ -1,8 +1,8 @@
 return {
-    -- add gruvbox
-    { "ellisonleao/gruvbox.nvim" },
-
-    -- Configure LazyVim to load gruvbox
+    {
+        "ellisonleao/gruvbox.nvim",
+        lazy = true,
+    },
     {
         "LazyVim/LazyVim",
         opts = {
