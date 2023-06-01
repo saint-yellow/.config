@@ -1,4 +1,4 @@
 return {
     "kdheepak/lazygit.nvim",
-    lazy = false,
+    lazy = true,
 }

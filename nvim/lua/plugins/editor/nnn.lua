@@ -1,8 +1,8 @@
 return {
     "luukvbaal/nnn.nvim",
-    lazy = false,
+    lazy = true,
     keys = {
-        { "<leader>n", "<cmd>NnnPicker<cr>", desc = "NNN Picker" },
+        { "<leader>np", "<cmd>NnnPicker<cr>", desc = "NNN Picker" },
     },
     config = function()
         require("nnn").setup()
