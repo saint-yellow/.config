@@ -7,4 +7,5 @@ foo.*
 *.log
 data
 .luarc.json
+lazy-lock.json
 
