@@ -3,14 +3,23 @@ local augroup = vim.api.nvim_create_augroup("LspFormatting", {})
 
 return {
     "jose-elias-alvarez/null-ls.nvim",
-    filetypes = {
+    ft = {
         "go",
+        "py",
     },
     opts = {
         sources = {
             null_ls.builtins.formatting.gofumpt,
             null_ls.builtins.formatting.goimports_reviser,
             null_ls.builtins.formatting.golines,
+            null_ls.builtins.formatting.black,
+            null_ls.builtins.formatting.ruff,
+
+            null_ls.builtins.diagnostics.ruff,
+
+
+            null_ls.builtins.completion.luasnip,
+            null_ls.builtins.completion.spell,
         },
     },
     on_attach = function(client, bufnr)
