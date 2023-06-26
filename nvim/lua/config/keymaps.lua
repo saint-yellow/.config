@@ -10,5 +10,4 @@ map("i", "<C-j>", "<Down>", { desc = "Move cursor DOWN in Insert mode", noremap 
 map("i", "<C-k>", "<Up>", { desc = "Move cursor UP in Insert mode", noremap = true, silent = true })
 map("i", "<C-l>", "<Right>", { desc = "Move cursor RIGHT in Insert mode", noremap = true, silent = true })
 
-map("n", "<leader>x", "<cmd>bp<bar>sp<bar>bn<bar>bd<cr>",
-    { desc = "Close current buffer", noremap = true, silent = true })
+map("n", "xc", "<cmd>bp<bar>sp<bar>bn<bar>bd<cr>", { desc = "Close current buffer", noremap = true, silent = false })
