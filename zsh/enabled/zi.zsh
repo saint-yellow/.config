@@ -1,4 +1,4 @@
-source ${HOME}/.zi/zi.zsh
+source ${HOME}/.local/share/zinit/zinit.git/zinit.zsh
 
 zi ice lucid wait="0" atload="_zsh_autosuggest_start"
 zi light zsh-users/zsh-autosuggestions
