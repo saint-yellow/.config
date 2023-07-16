@@ -16,11 +16,11 @@ super + Escape
 	pkill -USR1 -x sxhkd
 
 # reboot the machine
-super + r
+super + F4
     reboot
 
 # shutdown the machine
-super + s
+super + shift + F4
     shutdown now
 
 #
@@ -46,6 +46,10 @@ super + y
 # swap the current node and the biggest window
 super + g
 	bspc node -s biggest.window
+
+# rotate the nodes and its parent
+super + r 
+    bspc node @parent -R 90
 
 #
 # state/flags
