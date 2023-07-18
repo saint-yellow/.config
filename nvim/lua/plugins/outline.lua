@@ -3,7 +3,7 @@ return {
         "stevearc/aerial.nvim",
         keys = {
             {
-                "<leader>at", "<cmd>AerialToggle!<cr>", desc = "Areial Toggle",
+                "<leader>o", "<cmd>AerialToggle!<cr>", desc = "Areial Toggle",
             },
         },
         dependencies = {

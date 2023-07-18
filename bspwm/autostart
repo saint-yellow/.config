@@ -6,3 +6,4 @@ picom &
 feh --bg-fill /usr/share/wallpapers/constantinople.jpg &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 fcitx5 &
+clash-verge &
