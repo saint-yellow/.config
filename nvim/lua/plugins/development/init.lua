@@ -1,3 +1,3 @@
 return {
-    require("plugins.development.go")
+    require("plugins.development.go"),
 }

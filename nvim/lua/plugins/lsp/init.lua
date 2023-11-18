@@ -1,4 +1,4 @@
 return {
-    require("plugins.lsp.configure"),
     require("plugins.lsp.signature"),
+    require("plugins.lsp.navigate"),
 }

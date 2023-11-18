@@ -2,7 +2,11 @@
 -- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
 -- Add any additional keymaps here
 
-local set = vim.keymap.set
+local Util = require("lazyvim.util")
+
+local map = Util.safe_keymap_set
 
 -- close current buffer
-set("n", "xc", "<cmd>bp<bar>sp<bar>bn<bar>bd<cr>", { desc = "Close current buffer", noremap = true, silent = false })
+map("n", "xc", "<cmd>bp<bar>sp<bar>bn<bar>bd<cr>", { desc = "Close current buffer", noremap = true, silent = false })
+
+-- Resize window using <ctrl> arrow keys

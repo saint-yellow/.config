@@ -1,6 +1,4 @@
-local plugins = {
-    "jose-elias-alvarez/null-ls.nvim",
-}
+local plugins = {}
 
 local M = {}
 
