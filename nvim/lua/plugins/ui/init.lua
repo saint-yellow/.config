@@ -3,4 +3,5 @@ return {
     require("plugins.ui.notification"),
     require("plugins.ui.outline"),
     require("plugins.ui.bufferline"),
+    require("plugins.ui.statusline"),
 }
