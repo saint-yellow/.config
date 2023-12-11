@@ -14,7 +14,7 @@ require("lazy").setup({
             "LazyVim/LazyVim",
             import = "lazyvim.plugins",
             opts = {
-                colorscheme = "tokyonight",
+                colorscheme = "solarized-osaka",
             },
         },
 
@@ -29,7 +29,7 @@ require("lazy").setup({
         { import = "lazyvim.plugins.extras.lang.python" },
         { import = "lazyvim.plugins.extras.lang.clangd" },
         { import = "lazyvim.plugins.extras.lang.rust" },
-        { import = "lazyvim.plugins.extras.lang.omnisharp" },
+        -- { import = "lazyvim.plugins.extras.lang.omnisharp" },
         { import = "lazyvim.plugins.extras.lang.java" },
         { import = "lazyvim.plugins.extras.lang.ruby" },
         { import = "lazyvim.plugins.extras.lang.json" },
